@@ -1,3 +1,9 @@
+PATH
+  remote: .
+  specs:
+    jojosiao (0.1.0)
+      jekyll (~> 3.8)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -247,7 +253,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.12)
+  jekyll-paginate
   jekyll-seo-tag (~> 2.6)
+  jojosiao!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
